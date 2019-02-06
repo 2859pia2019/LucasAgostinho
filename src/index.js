@@ -15,9 +15,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <p>
-          Ola jovem 
-        </p>
+        <Aluno nome="Ana" curso="SI"/>
+        <Aluno nome="João" curso="SI"/>
+        <Aluno nome="Maria" curso="SI" />
       </div>
     );
   }
